@@ -1,0 +1,56 @@
+[
+    {
+        "id": 4240,
+        "distance": 340579,
+        "time": 3,
+        "company": {
+            "name": "Ms. Pansy Tremblay",
+            "email": "tressa.mayert@yahoo.com"
+        },
+        "carrier": {
+            "name": "Onie Lowe",
+            "email": "maida.corwin@gmail.com"
+        },
+        "route": [
+            {
+                "stop_id": 250456,
+                "postcode": "19217",
+                "city": "Schlagsdorf",
+                "country": "DE"
+            },
+            {
+                "stop_id": 270605,
+                "postcode": "82418",
+                "city": "Riegsee",
+                "country": "DE"
+            }
+        ]
+    },
+    {
+        "id": 10958,
+        "distance": 507627,
+        "time": 5,
+        "company": {
+            "name": "Sam Feil",
+            "email": "beau44@heidenreich.info"
+        },
+        "carrier": {
+            "name": "Christophe Rodriguez",
+            "email": "danial.romaguera@yahoo.com"
+        },
+        "route": [
+            {
+                "stop_id": 729402,
+                "postcode": "16918",
+                "city": "Freyenstein",
+                "country": "DE"
+            },
+            {
+                "stop_id": 96395,
+                "postcode": "86916",
+                "city": "Kaufering",
+                "country": "DE"
+            }
+        ]
+    }
+]
