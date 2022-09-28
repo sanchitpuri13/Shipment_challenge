@@ -12,7 +12,8 @@
 ## How to Setup and Execute
 
 1.  Clone the repository
-2.  Run `start.sh` to build docker containers, executing migration and PHPunit test cases
+2.  Run `start.sh` to build docker containers, executing migration, executing import process and PHPunit test cases
+3.  Import process will be executed automatically by start.sh script. If you want to execute it by yourself run php bin/console app:import:shipments inside project root directory
 
 ## How to access OpenAPI Specification
 
@@ -27,8 +28,8 @@
     URL Path: http://localhost:8080/api/shipments?page=pagenumber&company.name[]=company_name&carrier.name[]=carrier_name
 
         Query Parameters
-        	Page : integer
-        	company.name : array
+            Page : integer
+            company.name : array
             carrier.name : array
 
     Responses:
